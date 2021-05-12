@@ -1,3 +1,5 @@
+# Learning pygame with Clear Code (Youtube channel)
+
 import pygame
 import sys
 import random
@@ -125,7 +127,6 @@ pygame.time.set_timer(BIRDFLAP, 200)
 # bird_surface = pygame.image.load('assets/bluebird-midflap.png').convert_alpha()
 # bird_surface = pygame.transform.scale(bird_surface, (40, 30)) # bird size 40x30
 # bird_rect = bird_surface.get_rect(center=(100, 320))
-
 
 pipe_surface = pygame.image.load('assets/pipe-green.png').convert()
 pipe_surface = pygame.transform.scale(pipe_surface, (60, 500))
